@@ -1,0 +1,22 @@
+{
+  "name": "maimaitech/migrate-menu",
+  "version": "1.0.0",
+  "type": "mixed",
+  "description": "Menu configuration migration tool for importing and exporting menu structures",
+  "author": [{
+    "name": "MaimaiTech",
+    "email": "support@maimaitech.com"
+  }],
+  "composer": {
+    "require": [],
+    "psr-4": {
+      "Plugin\\MaimaiTech\\MigrateMenu\\": "src"
+    },
+    "installScript": "\\Plugin\\MaimaiTech\\MigrateMenu\\InstallScript",
+    "uninstallScript": "\\Plugin\\MaimaiTech\\MigrateMenu\\UninstallScript",
+    "config": "\\Plugin\\MaimaiTech\\MigrateMenu\\ConfigProvider"
+  },
+  "package": {
+    "dependencies": []
+  }
+}

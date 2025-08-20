@@ -1,0 +1,50 @@
+menuMigrate:
+  title: Menu Migration
+  description: Manage menu configuration import and export functionality
+  currentMenus: Current Menu List
+  noMenusFound: No menu data found
+  totalMenus: Total Menus
+  enabledMenus: Enabled Menus
+  disabledMenus: Disabled Menus
+  menuTypes: Menu Types
+  menuStats: Menu Statistics
+  exportTitle: Export Menu Configuration
+  exportDescription: Export current system menu configuration as JSON file for backup or migration to other environments.
+  importTitle: Import Menu Configuration
+  importDescription: Import menu configuration from JSON file, supporting overwrite or merge with existing menus.
+  export: Export Configuration
+  import: Import Configuration
+  download: Download
+  upload: Upload
+  exportSuccess: Menu configuration exported successfully
+  exportFailed: Menu configuration export failed
+  importSuccess: Menu configuration imported successfully
+  importFailed: Menu configuration import failed
+  importProgress: Importing menu configuration...
+  loading: Loading...
+  refreshData: Refresh Data
+  fileFormatTip: Only JSON format files supported, maximum size 10MB
+  selectFile: Please select file to import
+  overwriteOption: Overwrite existing menus
+  overwriteOptionTip: If enabled, existing menu items with the same name will be overwritten
+  importResult: Import Result
+  totalCount: Total
+  successCount: Success
+  failedCount: Failed
+  skippedCount: Skipped
+  errorDetails: Error Details
+  confirmExport: Confirm Export
+  confirmImport: Confirm Import
+  exportConfirmMessage: Are you sure you want to export current system menu configuration?
+  importConfirmMessage: Are you sure you want to import the selected menu configuration file? This may modify existing menu structure.
+  menuStructure: Menu Structure
+  menuDetails: Menu Details
+  parentMenu: Parent Menu
+  menuName: Menu Name
+  menuPath: Menu Path
+  menuIcon: Menu Icon
+  menuType: Menu Type
+  menuStatus: Menu Status
+  sortOrder: Sort Order
+  createTime: Create Time
+  updateTime: Update Time
