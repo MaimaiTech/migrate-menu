@@ -12,8 +12,6 @@ declare(strict_types=1);
 
 namespace Plugin\MaimaiTech\MigrateMenu;
 
-use Mine\AppStore\Plugin;
-
 class ConfigProvider
 {
     public function __invoke(): array
@@ -26,13 +24,13 @@ class ConfigProvider
                     ],
                 ],
             ],
-            'swagger'   =>  [
+            'swagger' => [
                 'scan' => [
                     'paths' => [
                         __DIR__,
                     ],
-                ]
-            ]
+                ],
+            ],
         ];
     }
 }

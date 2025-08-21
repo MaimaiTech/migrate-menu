@@ -78,7 +78,7 @@ class InstallScript
                         'copyright' => false,
                         'cache' => true,
                         'componentPath' => 'plugins/',
-                        'componentSuffix'=>'.vue',
+                        'componentSuffix' => '.vue',
                     ],
                 ]);
 
