@@ -22,24 +22,7 @@ const pluginConfig: Plugin.PluginConfig = {
       description: 'Menu configuration migration tool for importing and exporting menu structures',
     },
   },
-  views: [
-    {
-      name: 'MenuMigrateRoute',
-      path: '/menu-migrate',
-      meta: {
-        title: 'Menu Migration',
-        i18n: 'menu.menuMigrate',
-        icon: 'solar:import-bold-duotone',
-        type: 'M',
-        hidden: false,
-        breadcrumbEnable: true,
-        copyright: false,
-        cache: true,
-        auth: ['system:menu:migrate'],
-      },
-      component: () => import('./views/index.vue'),
-    },
-  ],
+  views: []
 }
 
 export default pluginConfig
